@@ -13,3 +13,21 @@
 
 
 # Create a variable `height.in.meters` by passing `height.in.feet` to your `FeetToMeters` function
+
+AddThree <- function(a) {
+  #Adds three to an input value and returns result
+  
+  return (a + 3)
+}
+
+ten <- AddThree(7)
+
+FeetToMeters <- function(a) {
+  #returns passed value in feet into meters.
+  
+  return(a * 0.3048)
+}
+
+height.in.feet <- 5.5
+
+height.in.meters <- FeetToMeters(height.in.feet)
